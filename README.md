@@ -31,7 +31,7 @@ class User(Base):
 create users  for simple which need to be inserted into db
 
 ```
-users = [User(name=i) for i in ('Thor', 'Stark', 'Rogers', 'Scarlet Witch', 'Strange')]
+users = [{"name": i} for i in ('Thor', 'Stark', 'Rogers', 'Scarlet Witch', 'Strange')]
 ```
 
 And we can insert users with following code:
