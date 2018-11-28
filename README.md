@@ -2,9 +2,13 @@
 
 A simple helper for bulk insert data with sqlalchemy
 
+###### Installation
 
+```shell
+pip install sa-insert-helper
+```
 
-usage:
+###### Usage
 
 Let's assume we have a session and model
 
